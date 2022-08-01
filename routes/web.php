@@ -45,3 +45,8 @@ return view('Auth.login');
 Route::get('/registration', function(){
     return view('Auth.registration');
 })->name('registration');
+
+
+Route::get('/forgotpassword', function(){
+    return view('Auth.forgotpassword');
+});
