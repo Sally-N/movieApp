@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-         <link rel="stylesheet" href="https://bootswatch.com/5/flatlty/bootstrap.min.css">
+        <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
          {{-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> --}}
         <!-- Styles -->
         <style>

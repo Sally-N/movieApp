@@ -9,7 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-         <link rel="stylesheet" href="https://bootswatch.com/5/flatlty/bootstrap.min.css">
+                 <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
+
+         {{-- <link rel="stylesheet" href="https://bootswatch.com/5/flatlty/bootstrap.min.css"> --}}
          {{-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> --}}
         <!-- Styles -->
         <style>
@@ -20,6 +22,14 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            h3{
+              text-align: center;
+              padding: 5px;
+              color: rgb(209, 43, 43);
+            }
+            li{
+              list-style: square;
+            }
         </style>
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
@@ -28,7 +38,7 @@
             <div>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Movies</a>
+    <a class="navbar-brand" href="#">MOVIES</a>
 
     {{-- <span class="navbar-text">
        <a class="navbar-brand" href="#">Sign In</a>
@@ -37,7 +47,7 @@
 </nav>`
 </div>
 <div class="container-plan">
-    <h3>Choose a plan</h3>
+    <h3>CHOOSE A PLAN</h3>
  <div class="row">
   <div class="col-sm-4">
     <div class="card">

@@ -34,7 +34,7 @@ return view('Auth.info');
 
 
 Route::get('/packages', function(){
-return view('Auth.chooseplan');
+return view('Auth.packages');
 });
 
 Route::get('/login', function(){

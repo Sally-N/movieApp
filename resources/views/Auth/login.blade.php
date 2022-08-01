@@ -26,7 +26,7 @@
 
     </head>
     <body>
-    @section('navbar')
+    {{-- @section('navbar') --}}
       <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Movies</a>
@@ -36,9 +36,11 @@
       </span>
 </div>
 </nav>`
- @endsection
+ {{-- @endsection --}}
+ {{-- <div class="card"></div> --}}
 <div class="container-sm" style="width: 44rem">
-     {{-- <div class="card" style="width: 50rem"> --}}
+     <div class="card" style="width: 50rem">
+<h3 class="form-title">Sign In</h3>
         <form>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
